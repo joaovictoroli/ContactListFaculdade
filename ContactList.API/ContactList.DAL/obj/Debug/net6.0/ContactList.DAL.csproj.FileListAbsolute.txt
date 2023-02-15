@@ -1,0 +1,17 @@
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\bin\Debug\net6.0\ContactList.DAL.deps.json
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\bin\Debug\net6.0\ContactList.DAL.runtimeconfig.json
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\bin\Debug\net6.0\ContactList.DAL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\bin\Debug\net6.0\ContactList.DAL.pdb
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\bin\Debug\net6.0\ContactList.BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\bin\Debug\net6.0\ContactList.BLL.pdb
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.csproj.AssemblyReference.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.AssemblyInfoInputs.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.AssemblyInfo.cs
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.csproj.CoreCompileInputs.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.csproj.CopyComplete
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\refint\ContactList.DAL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.pdb
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ContactList.DAL.genruntimeconfig.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.DAL\obj\Debug\net6.0\ref\ContactList.DAL.dll

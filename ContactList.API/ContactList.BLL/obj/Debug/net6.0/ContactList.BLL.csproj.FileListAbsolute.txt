@@ -1,0 +1,12 @@
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\bin\Debug\net6.0\ContactList.BLL.deps.json
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\bin\Debug\net6.0\ContactList.BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\bin\Debug\net6.0\ContactList.BLL.pdb
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ContactList.BLL.csproj.AssemblyReference.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ContactList.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ContactList.BLL.AssemblyInfoInputs.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ContactList.BLL.AssemblyInfo.cs
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ContactList.BLL.csproj.CoreCompileInputs.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ContactList.BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\refint\ContactList.BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ContactList.BLL.pdb
+C:\Users\joaov\OneDrive\Área de Trabalho\projetos\curso.ASPNET.WEBAPI\ContactListFaculdade\ContactList.API\ContactList.BLL\obj\Debug\net6.0\ref\ContactList.BLL.dll
