@@ -4,10 +4,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-
+using ContactList.DAL.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
 // Add services to the container.
 
 builder.Services.AddDbContext<ContactListDbContext>(options =>

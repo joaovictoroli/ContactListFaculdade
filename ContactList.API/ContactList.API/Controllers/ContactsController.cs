@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ContactList.BLL.Model;
 using ContactList.DAL.Data;
+using ContactList.DAL.Repository;
 
 namespace ContactList.API.Controllers
 {
@@ -14,63 +15,48 @@ namespace ContactList.API.Controllers
     [ApiController]
     public class ContactsController : ControllerBase
     {
-        private readonly ContactListDbContext _context;
+        private readonly IContactRepository contactRepository;
 
-        public ContactsController(ContactListDbContext context)
+        public ContactsController(IContactRepository contactRepository)
         {
-            _context = context;
+            this.contactRepository = contactRepository;
         }
 
         // GET: api/Contacts
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Contact>>> GetContacts()
         {
-            return await _context.Contacts.ToListAsync();
+            return Ok(await contactRepository.GetAllAsync());
         }
 
         // GET: api/Contacts/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Contact>> GetContact(int id)
         {
-            var contact = await _context.Contacts.FindAsync(id);
+            var contact = await contactRepository.GetAsync(id);
 
             if (contact == null)
             {
                 return NotFound();
             }
 
-            return contact;
+            return Ok(contact);
         }
 
         // PUT: api/Contacts/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutContact(int id, Contact contact)
+        public async Task<IActionResult> PutContact([FromRoute] int id, Contact updatedContactRequest)
         {
-            if (id != contact.Id)
+            var contact = await contactRepository.UpdateAsync(id, updatedContactRequest);
+
+            if (contact == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(contact).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ContactExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            return Ok(updatedContactRequest);
         }
 
         // POST: api/Contacts
@@ -78,8 +64,7 @@ namespace ContactList.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Contact>> PostContact(Contact contact)
         {
-            _context.Contacts.Add(contact);
-            await _context.SaveChangesAsync();
+            await contactRepository.AddAsync(contact);
 
             return CreatedAtAction("GetContact", new { id = contact.Id }, contact);
         }
@@ -88,21 +73,13 @@ namespace ContactList.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteContact(int id)
         {
-            var contact = await _context.Contacts.FindAsync(id);
+            var contact = await contactRepository.DeleteAsync(id);
             if (contact == null)
             {
                 return NotFound();
             }
 
-            _context.Contacts.Remove(contact);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool ContactExists(int id)
-        {
-            return _context.Contacts.Any(e => e.Id == id);
+            return Ok(contact);
         }
     }
 }
